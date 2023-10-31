@@ -1,0 +1,38 @@
+* {
+    background-color: #d0dfff;
+    font-family: 'Verdana', 'Tahoma', sans-serif;
+    color: #132f43;
+}
+
+.card {
+    width: 700px;
+    border: 2px solid #132f43;
+    border-radius: 20px 20px 20px 20px;
+    margin: 20px auto;
+    padding-bottom: 10px;
+}
+
+.card > .card-header {
+    text-align: center;
+}
+
+.card > img {
+    width: 100%;
+}
+
+.card > .card-body {
+    padding: 10px 10px 0 10px;
+    text-align: justify;
+}
+
+.card-body > p {
+    padding: 0 20px;
+}
+
+.card-body > h2 {
+    text-align: center;
+}
+
+.card-body > ul > li > a {
+    text-decoration: none;
+}
