@@ -1,0 +1,45 @@
+* {
+    background-color: #d0dfff;
+    font-family: 'Verdana', 'Tahoma', sans-serif;
+    color: #132f43;
+}
+
+.card {
+    width: 700px;
+    border: 2px solid #132f43;
+    border-radius: 20px 20px 20px 20px;
+    margin: 20px auto;
+    padding-bottom: 15px;
+}
+
+.card-header, .card-content > h2 {
+    width: inherit;
+    text-align: center;
+}
+
+.card-header > img {
+    width: 100%;
+    border-top: 2px solid #132f43;
+    border-bottom: 2px solid #132f43;
+}
+
+.card-content {
+    padding: 0 10px;
+}
+
+.card-content > p {
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.card-content > .link {
+    text-align: center;
+}
+
+.card-content > .link > a {
+    text-decoration: none;
+}
+
+.card-content > .link > a:hover {
+    text-decoration: underline;
+}

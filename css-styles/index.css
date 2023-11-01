@@ -18,6 +18,8 @@
 
 .card > img {
     width: 100%;
+    border-top: 2px solid #132f43;
+    border-bottom: 2px solid #132f43;
 }
 
 .card > .card-body {
